@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+	background-color: #d0f050;
+}
+
+header,
+footer {
+	text-align: center;
+	width: 100%;
+	/* font-size: 8rem;
+font-weight: bold; */
+}
+
+.corner-image {
+	position: fixed;
+	width: 30vh;
+	height: auto;
+}
+
+/* Bal felső sarok */
+.corner-image.top-left {
+	top: 0;
+	left: 0;
+}
+
+/* Jobb felső sarok */
+.corner-image.top-right {
+	top: 0;
+	right: 0;
+}
+
+/* Bal alsó sarok */
+.corner-image.bottom-left {
+	bottom: 0;
+	left: 0;
+}
+
+/* Jobb alsó sarok */
+.corner-image.bottom-right {
+	bottom: 0;
+	right: 0;
+}
